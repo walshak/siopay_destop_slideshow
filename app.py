@@ -195,7 +195,7 @@ class SlideshowDialog(QDialog):
         self.image_label.setAlignment(Qt.AlignCenter)
         self.layout.addWidget(self.image_label)
 
-        self.timer = self.startTimer(2000)  # Change the timer interval as needed
+        self.timer = self.startTimer(10000)  # Change the timer interval as needed
         self.show_image()
 
     def show_image(self):
